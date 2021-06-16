@@ -474,7 +474,7 @@ tape( 'if an environment supports `Symbol.iterator`, a list instance iterator is
 	var i;
 
 	DoublyLinkedList = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': '__ITERATOR_SYMBOL__'
+		'@stdlib/symbol-iterator': '__ITERATOR_SYMBOL__'
 	});
 
 	list = new DoublyLinkedList();
@@ -504,7 +504,7 @@ tape( 'if an environment does not support `Symbol.iterator`, a linked list insta
 	var it;
 
 	DoublyLinkedList = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': false
+		'@stdlib/symbol-iterator': false
 	});
 
 	list = new DoublyLinkedList();
