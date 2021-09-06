@@ -521,6 +521,13 @@ len = list.length;
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/linked-list`][@stdlib/utils/linked-list]: linked list.
+-   [`@stdlib/utils/stack`][@stdlib/utils/stack]: stack.
+
 </section>
 
 <!-- /.related -->
@@ -581,6 +588,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-doubly-linked-list/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/utils/linked-list]: https://github.com/stdlib-js/utils-linked-list
+
+[@stdlib/utils/stack]: https://github.com/stdlib-js/utils-stack
+
+<!-- </related-links> -->
 
 </section>
 
