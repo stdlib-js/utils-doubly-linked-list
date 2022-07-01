@@ -34,14 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-doubly-linked-list
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import doublyLinkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-doubly-linked-list@deno/mod.js';
+var doublyLinkedList = require( '@stdlib/utils-doubly-linked-list' );
 ```
 
 #### doublyLinkedList()
@@ -447,7 +463,7 @@ v = list.pop();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import doublyLinkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-doubly-linked-list@deno/mod.js';
+var doublyLinkedList = require( '@stdlib/utils-doubly-linked-list' );
 
 var list;
 var iter;
@@ -533,7 +549,7 @@ len = list.length;
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -589,14 +605,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/utils-doubly-linked-list/tree/deno
 [umd-url]: https://github.com/stdlib-js/utils-doubly-linked-list/tree/umd
 [esm-url]: https://github.com/stdlib-js/utils-doubly-linked-list/tree/esm
+[branches-url]: https://github.com/stdlib-js/utils-doubly-linked-list/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-doubly-linked-list/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/utils/linked-list]: https://github.com/stdlib-js/utils-linked-list/tree/deno
+[@stdlib/utils/linked-list]: https://github.com/stdlib-js/utils-linked-list
 
-[@stdlib/utils/stack]: https://github.com/stdlib-js/utils-stack/tree/deno
+[@stdlib/utils/stack]: https://github.com/stdlib-js/utils-stack
 
 <!-- </related-links> -->
 
