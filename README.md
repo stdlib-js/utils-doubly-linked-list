@@ -533,8 +533,8 @@ len = list.length;
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/linked-list`][@stdlib/utils/linked-list]</span><span class="delimiter">: </span><span class="description">linked list.</span>
--   <span class="package-name">[`@stdlib/utils/stack`][@stdlib/utils/stack]</span><span class="delimiter">: </span><span class="description">stack.</span>
+-   <span class="package-name">[`@stdlib/utils-linked-list`][@stdlib/utils/linked-list]</span><span class="delimiter">: </span><span class="description">linked list.</span>
+-   <span class="package-name">[`@stdlib/utils-stack`][@stdlib/utils/stack]</span><span class="delimiter">: </span><span class="description">stack.</span>
 
 </section>
 
