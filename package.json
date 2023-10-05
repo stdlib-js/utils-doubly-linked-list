@@ -37,16 +37,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/string-format": "^0.1.0",
+    "@stdlib/string-format": "^0.1.1",
     "@stdlib/symbol-iterator": "^0.1.0",
     "@stdlib/types": "^0.1.0",
-    "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.1.0",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0",
-    "@stdlib/utils-define-property": "^0.1.0"
+    "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.1.1",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1",
+    "@stdlib/utils-define-property": "^0.1.1"
   },
   "devDependencies": {
-    "@stdlib/assert-has-own-property": "^0.1.0",
-    "@stdlib/assert-instance-of": "^0.1.0",
+    "@stdlib/assert-has-own-property": "^0.1.1",
+    "@stdlib/assert-instance-of": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/random-base-randu": "^0.1.0",
     "proxyquire": "^2.0.0",
