@@ -58,12 +58,12 @@ declare class Node {
 	/**
 	* Private field pointing to the next node.
 	*/
-	private readonly _next: Node; // tslint:disable-line:variable-name
+	private readonly _next: Node;
 
 	/**
 	* Private field pointing to the previous node.
 	*/
-	private readonly _prev: Node; // tslint:disable-line:variable-name
+	private readonly _prev: Node;
 }
 
 /**
@@ -173,7 +173,7 @@ declare class DoublyLinkedList {
 	* len = list.length;
 	* // returns 4
 	*/
-	insert( node: Node, value: any, location?: 'before' | 'after' ): DoublyLinkedList; // tslint-disable-line max-line-length
+	insert( node: Node, value: any, location?: 'before' | 'after' ): DoublyLinkedList;
 
 	/**
 	* Returns an iterator for iterating over a list.
