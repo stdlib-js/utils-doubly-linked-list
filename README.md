@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import doublyLinkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-doubly-linked-list@deno/mod.js';
+import doublyLinkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-doubly-linked-list@v0.2.0-deno/mod.js';
 ```
 
 #### doublyLinkedList()
@@ -458,7 +458,7 @@ v = list.pop();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import doublyLinkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-doubly-linked-list@deno/mod.js';
+import doublyLinkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-doubly-linked-list@v0.2.0-deno/mod.js';
 
 var list;
 var iter;
