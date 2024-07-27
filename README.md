@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import doublyLinkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-doubly-linked-list@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-doubly-linked-list/tags). For example,
+
+```javascript
 import doublyLinkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-doubly-linked-list@v0.2.2-deno/mod.js';
 ```
 
@@ -458,7 +463,7 @@ v = list.pop();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import doublyLinkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-doubly-linked-list@v0.2.2-deno/mod.js';
+import doublyLinkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-doubly-linked-list@deno/mod.js';
 
 var list;
 var iter;
